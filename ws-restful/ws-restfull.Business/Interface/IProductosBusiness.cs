@@ -13,5 +13,7 @@ namespace ws_restfull.Business.Interface
 
         ProductosDomainModel Get(int id);
         bool Delete(int id);
+
+        bool Update(int id,ProductosDomainModel productosDM);
     }
 }

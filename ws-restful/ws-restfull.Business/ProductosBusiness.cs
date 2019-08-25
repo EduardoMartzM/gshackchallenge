@@ -72,7 +72,6 @@ namespace ws_restfull.Business
             try
             {
                 Expression<Func<CatProductos, bool>> predicate = p => p.id == id;
-
                 productosRepository.Delete(predicate);
                 respuesta = true;
             }
@@ -85,6 +84,33 @@ namespace ws_restfull.Business
             return respuesta;
           
         }
+
+        public bool Update(int id,ProductosDomainModel productosDM)
+        {
+            bool respuesta = false;
+            try
+            {
+                Expression<Func<CatProductos, bool>> predicate = p => p.id == id;
+                CatProductos producto = productosRepository.GetAll(predicate).FirstOrDefault();
+
+                if (producto != null)
+                {
+                    producto.Precio = productosDM.precio;
+                    producto.Stock = productosDM.Stock;
+                    producto.strNombre = productosDM.strNombre;
+                    productosRepository.Update(producto);
+                    respuesta = true;
+                }       
+            }
+            catch (Exception)
+            {
+
+                
+            }
+
+            return respuesta;
+           
+        } 
 
 
 

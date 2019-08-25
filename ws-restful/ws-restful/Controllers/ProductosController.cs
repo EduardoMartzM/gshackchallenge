@@ -84,22 +84,52 @@ namespace ws_restful.Controllers
         public HttpResponseMessage Delete(int id)
         {
             ProductosDomainModel productosDM = productosBusiness.Get(id);
-
            
                 try
                 {
+                if (productosDM != null)
+                {
                     productosBusiness.Delete(productosDM.id);
                     return Request.CreateResponse(HttpStatusCode.OK, "Entidad Eliminada Correctamente");
+                }
+                else
+                {
+                    return Request.CreateResponse(HttpStatusCode.NotFound, "La Entidad a Eliminar no se ha Encontrado");
+                }
+                   
                 }
                 catch (Exception)
                 {
 
                     return Request.CreateResponse(HttpStatusCode.NotFound, "La Entidad a Eliminar no se ha Encontrado");
                 }
-             
-            
-
            
+        }
+
+        [HttpPut]
+        public HttpResponseMessage Put(int id,[FromBody]ProductosViewModel productosVM)
+        {
+            try
+            {
+                ProductosDomainModel productosDM = new ProductosDomainModel();
+                AutoMapper.Mapper.Map(productosVM,productosDM);
+                if (productosDM == null)
+                {
+                    return Request.CreateErrorResponse(HttpStatusCode.NotFound, "El Producto no fue Encontrado");
+                }
+                else
+                {
+                    productosBusiness.Update(id, productosDM);
+                    return Request.CreateResponse(HttpStatusCode.OK, "Actualizacion Exitosa");
+                }
+               
+
+            }
+            catch (Exception)
+            {
+
+                return Request.CreateErrorResponse(HttpStatusCode.NotFound, "El Producto no fue Encontrado");
+            }
         }
 
 
