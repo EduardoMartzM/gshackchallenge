@@ -1,0 +1,12 @@
+C:\Users\Fazur\Desktop\ws-restful\ws.restful.Repository\bin\Debug\ws.restful.Repository.dll.config
+C:\Users\Fazur\Desktop\ws-restful\ws.restful.Repository\bin\Debug\ws.restful.Repository.dll
+C:\Users\Fazur\Desktop\ws-restful\ws.restful.Repository\bin\Debug\ws.restful.Repository.pdb
+C:\Users\Fazur\Desktop\ws-restful\ws.restful.Repository\bin\Debug\EntityFramework.dll
+C:\Users\Fazur\Desktop\ws-restful\ws.restful.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Fazur\Desktop\ws-restful\ws.restful.Repository\bin\Debug\EntityFramework.xml
+C:\Users\Fazur\Desktop\ws-restful\ws.restful.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Fazur\Desktop\ws-restful\ws.restful.Repository\obj\Debug\ws-restful.Repository.csprojAssemblyReference.cache
+C:\Users\Fazur\Desktop\ws-restful\ws.restful.Repository\obj\Debug\ws-restful.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Fazur\Desktop\ws-restful\ws.restful.Repository\obj\Debug\ws-restful.Repository.csproj.CopyComplete
+C:\Users\Fazur\Desktop\ws-restful\ws.restful.Repository\obj\Debug\ws.restful.Repository.dll
+C:\Users\Fazur\Desktop\ws-restful\ws.restful.Repository\obj\Debug\ws.restful.Repository.pdb

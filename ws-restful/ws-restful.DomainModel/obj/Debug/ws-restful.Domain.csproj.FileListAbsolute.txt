@@ -1,0 +1,12 @@
+C:\Users\Fazur\Desktop\ws-restful\ws-restful.DomainModel\bin\Debug\ws-restful.DomainModel.dll.config
+C:\Users\Fazur\Desktop\ws-restful\ws-restful.DomainModel\bin\Debug\ws-restful.DomainModel.dll
+C:\Users\Fazur\Desktop\ws-restful\ws-restful.DomainModel\bin\Debug\ws-restful.DomainModel.pdb
+C:\Users\Fazur\Desktop\ws-restful\ws-restful.DomainModel\bin\Debug\EntityFramework.dll
+C:\Users\Fazur\Desktop\ws-restful\ws-restful.DomainModel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Fazur\Desktop\ws-restful\ws-restful.DomainModel\bin\Debug\EntityFramework.xml
+C:\Users\Fazur\Desktop\ws-restful\ws-restful.DomainModel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Fazur\Desktop\ws-restful\ws-restful.DomainModel\obj\Debug\ws-restful.Domain.csprojAssemblyReference.cache
+C:\Users\Fazur\Desktop\ws-restful\ws-restful.DomainModel\obj\Debug\ws-restful.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Fazur\Desktop\ws-restful\ws-restful.DomainModel\obj\Debug\ws-restful.Domain.csproj.CopyComplete
+C:\Users\Fazur\Desktop\ws-restful\ws-restful.DomainModel\obj\Debug\ws-restful.DomainModel.dll
+C:\Users\Fazur\Desktop\ws-restful\ws-restful.DomainModel\obj\Debug\ws-restful.DomainModel.pdb
